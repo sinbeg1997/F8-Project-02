@@ -276,6 +276,11 @@ a {
 }
 
 /* Courses */
+
+.course-container {
+  margin-top: 200px;
+}
+
 .course-container .popular {
   display: flex;
   align-items: center;
