@@ -301,3 +301,53 @@ a {
   line-height: 1.54;
   color: #ffffff;
 }
+
+/* Outcomes */
+
+.outcomes-container {
+  margin-top: 200px;
+}
+
+.outcomes-container .wraps-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.outcomes-container .outcomes-imgs {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.outcomes-container .outcomes-imgs img:first-child {
+  margin-top: 32px;
+}
+
+.outcomes-container .infos {
+  width: 480px;
+  margin-top: 58px;
+}
+
+.outcomes-container .infos .desc {
+  margin-top: 16px;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.75;
+  color: #5f5b53;
+}
+
+.outcomes-container .infos .btn {
+  margin-top: 32px;
+  display: inline-block;
+  background: #ffb900;
+  min-width: 137px;
+}
+
+.outcomes-container.outcomes2 .wraps-content {
+  align-items: center;
+}
+
+.outcomes-container.outcomes2 .infos {
+  width: 575px;
+  margin-top: 0;
+}
