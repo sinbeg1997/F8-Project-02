@@ -539,6 +539,12 @@ a {
 }
 
 .blog-header .desc {
+  margin-top: 16px;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.75;
+  text-align: center;
+  color: #696262;
 }
 
 .wrap-blogs {
