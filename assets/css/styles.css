@@ -35,6 +35,7 @@ a {
   text-transform: capitalize;
   font-size: 1.4rem;
   border: 0;
+  cursor: pointer;
 }
 
 .heading {
@@ -618,4 +619,129 @@ a {
   background: #ffb900;
   color: #ffffff;
   border: 0;
+}
+
+.wrap-controls {
+  margin-top: 38px;
+  display: flex;
+  justify-content: center;
+}
+
+.wrap-controls .slide-control {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.wrap-controls .slide-control .control {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #5f5b53;
+}
+
+.wrap-controls .slide-control .control.active {
+  background: #ffb900;
+}
+
+/* Footer */
+
+footer {
+  background: #2e2100;
+  padding-top: 96px;
+  padding-bottom: 28px;
+}
+
+footer .infos {
+  display: flex;
+}
+
+footer .infos .introduce .logo {
+  color: #ffffff;
+}
+
+footer .infos .introduce {
+  width: 270px;
+  margin-right: 145px;
+}
+footer .infos .introduce .desc {
+  margin-top: 16px;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.86;
+  color: #bfbcb2;
+}
+
+footer .infos .introduce .socials {
+  margin-top: 18px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+footer .infos .sponsors {
+  display: flex;
+  gap: 130px;
+}
+
+footer .infos .col:last-child {
+  flex: 1;
+}
+
+footer .infos .sponsors .sponsor-type {
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 1.75;
+  color: #ffffff;
+}
+
+footer .infos .sponsors .separate {
+  width: 130px;
+  height: 1px;
+  background: #59554b;
+  margin-top: 14px;
+}
+
+footer .infos .sponsors .links {
+  margin-top: 28px;
+}
+
+footer .infos .sponsors .links .link {
+  display: block;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 1.86;
+  color: #bfbcb2;
+}
+
+footer .infos .sponsors .links .link + .link {
+  margin-top: 12px;
+}
+
+footer .infos .sponsors .links .link span {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+footer .infos .sponsors .links .link a {
+  color: #bfbcb2;
+  cursor: pointer;
+}
+
+footer .infos .sponsors .links .link a:hover {
+  text-decoration: underline;
+}
+
+footer .separate {
+  background: #59554b;
+  height: 1px;
+  margin-top: 38px;
+}
+
+footer .copyright {
+  margin-top: 28px;
+  font-size: 1.4rem;
+  line-height: 1.86;
+  text-align: center;
+  color: #807d74;
 }
